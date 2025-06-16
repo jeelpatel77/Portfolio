@@ -1,0 +1,211 @@
+ .navbar-custom {
+      background-color: #124463;
+
+
+      
+    }
+    .navbar-nav .nav-link {
+      color: white !important;
+      font-weight: 600;
+      font-family: sans-serif;
+      font-size: 0.9rem;
+    }
+    .navbar-brand {
+      color: white t;
+      font-family: sans-serif;
+    }
+    .icon{
+        color: white;
+    }
+
+
+
+
+    /* home :start */
+       /* body {
+      background-color: #0c3b5e;
+      font-family: 'Inter', sans-serif;
+      color: white;
+    } */
+
+    .highlight-text {
+      color: #14518a;
+      font-weight: 800;
+    }
+
+    .typewriter-text {
+      display: inline-block;
+      white-space: nowrap;
+      border-right: 2px solid white;
+      overflow: hidden;
+      
+      animation: typing 3s steps(20, end), blink-caret 0.75s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 10em }
+    }
+
+    @keyframes blink-caret {
+      0%, 100% { border-color: transparent }
+      50% { border-color: white }
+    }
+
+    .corner-box {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      border: 4px solid #a9b9c9;
+    }
+
+    .top-left-corner {
+      top: 0;
+      left: 0;
+      border-right: none;
+      border-bottom: none;
+    }
+
+    .bottom-right-corner {
+      bottom: 0;
+      right: 0;
+      border-left: none;
+      border-top: none;
+    }
+
+    .text{
+        color: white;
+    }
+
+    /* home :end */
+
+    /* service :start */
+
+          .service-box {
+      background: #fff;
+      padding: 40px 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      transition: all 0.3s ease-in-out;
+      height: 100%;
+    }
+
+    .service-box:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-icon {
+      font-size: 40px;
+      color: #0dcaf0;
+     
+      padding: 20px;
+      border-radius: 50%;
+      display: inline-block;
+      transition: all 0.3s ease-in-out;
+    }
+
+    /* .service-box:hover .service-icon {
+      background-color: #0dcaf0;
+      color: white;
+      transform: rotate(10deg) scale(1.1);
+    } */
+
+    .service-title {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    .service-text {
+      color: #6c757d;
+      margin-top: 10px;
+    }
+    /* service :end */
+
+
+    /* skill :start */
+    .custom-heading-bar {
+      width: 56px;
+      height: 3px;
+      background-color: #2196f3;
+      margin-bottom: 1.5rem;
+    }
+    .progress-bar {
+      background-color: #2196f3 !important;
+    }
+
+    /* skill :end */
+
+    /* eduction start */
+     .ed {
+      display: flex;
+      font-family: 'Inter', sans-serif;
+      background-color: #124463;
+      padding: 5rem;
+      /* min-height: 100vh; */
+      align-items: flex-start;
+      /* left: 30px; */
+      
+    }
+    .text-dark-custom {
+      color: #ffffff;
+    }
+
+    /* contact  */
+
+     .info-box {
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.05);
+    }
+    .info-icon {
+      font-size: 1.5rem;
+      color: #0d6efd;
+      margin-right: 10px;
+    }
+    .btn-custom {
+      background-color: #0d99e5;
+      color: white;
+      border-radius: 25px;
+      padding: 10px 30px;
+    }
+    /* contc end  */
+
+    /* portfolio start */
+
+
+     .portfolio-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .portfolio-title h2 {
+      font-weight: bold;
+    }
+    .portfolio-title .underline {
+      width: 50px;
+      height: 4px;
+      background-color: #2fa4ff;
+      margin: 0.5rem auto;
+    }
+    .card img {
+      height: 250px;
+      object-fit:cover;
+    }
+    
+    /* .portfolio :end */
+
+/* tic */
+
+  .tic{
+    height: 40px;
+    width: 60px;
+    
+  }
+
+
+
+
+    
